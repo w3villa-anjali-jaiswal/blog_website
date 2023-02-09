@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>blog website</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-size: 1rem;
+            font-family: "Poppins", sans-serif;
+        }
+
+        nav {
+            width: 100vw;
+            margin: auto;
+            background-color: #f1f0f0;
+            margin: 2px;
+            border-radius: 1px;
+        }
+        .navbar-logo {
+            font-size: 50px;
+            color: rgb(87, 157, 219);
+            margin-left: 10px;
+        }
+
+        .navbar-container {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .navbar-links {
+            display: flex;
+        }
+
+        .navbar-links .main-ul {
+            list-style: none;
+            display: flex;
+        }
+        .navbar-border{
+            background-color: #5e5e5e;
+        }
+        .navbar-links ul li,
+        .navbar-links ul div,
+        .navbar-links button {
+            margin: auto 10px;
+        }
+
+        .get-start-btn {
+            padding: 10px;
+            background-color: rgb(246, 165, 73);
+            color: #fff;
+            border-radius: 4px;
+            border: none;
+        }
+
+        .main-container-top {
+            height: 55vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .heading {
+            font-size: 2.9rem;
+            font-weight: 900;
+            color: rgb(129, 178, 221);
+        }
+
+        .main-container-top p {
+            color: #5e5e5e;
+            font-size: 1.2rem;
+            margin-top: 1px;
+        }
+
+        .main-container-top button {
+            margin-top: 10px;
+        }
+
+        .main-container-bottom {
+            width: 80vw;
+            margin: auto;
+        }
+
+        .main-container-bottom .card {
+            padding: 60px 40px;
+            margin: auto 20px;
+            border-radius: 12px;
+            box-shadow: 5px -5px 15px #f5f5f5, -5px 5px 15px #f5f5f5;
+        }
+
+        .main-container-bottom .card h3 {
+            color: rgb(87, 194, 236);
+            margin: 8px auto;
+            font-size: 1.1rem;
+        }
+
+        .main-container-bottom .card p {
+            color: #5e5e5e;
+            margin: 8px auto;
+            font-size: 20px;
+        }
+
+        .main-container-bottom .card  {
+            color: rgb(75, 133, 184);
+            font-size: 1.8rem;
+            margin: 8px auto;
+        }
+
+        .d-flex {
+            display: flex;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="nav-border">
+        <nav>
+            <div class="navbar-container">
+                <div class="navbar-logo">OnePage</div>
+                <div class="navbar-links">
+                    <ul class="main-ul">
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Services</li>
+                        <li>Portfolio</li>
+                        <li>Team</li>
+                        <li>Pricing</li>
+
+
+
+                        
+
+                        <select name="dropdown">
+                            <option value="item1">item1</option>
+                            <option value="item1">item1</option>
+                            <option value="item1">item1</option>
+                        </select>
+
+                        <li>Contact</li>
+                    </ul>
+                    <button class="get-start-btn">Get Started</button>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <main>
+
+        <div class="main-container-top">
+            <div class="heading">One Page Bootstrap</div>
+            <div class="heading">Website Template</div>
+            <p>We are team of talanted designers</p>
+            <div>
+                <button class="get-start-btn">Get Started</button>
+            </div>
+        </div>
+
+        <div class="main-container-bottom">
+            <div class="d-flex">
+                <div class="card">
+
+                    <h3>Lorem, ipsum.</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum,
+                        distinctio?
+                    </p>
+                </div>
+                <div class="card">
+
+                    <h3>Lorem, ipsum.</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum,
+                        distinctio?
+                    </p>
+                </div>
+                <div class="card">
+
+                    <h3>Lorem, ipsum.</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum,
+                        distinctio?
+                    </p>
+                </div>
+                <div class="card">
+
+                    <h3>Lorem, ipsum.</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum,
+                        distinctio?
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+</body>
+
+</html>
